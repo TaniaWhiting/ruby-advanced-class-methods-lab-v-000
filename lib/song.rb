@@ -10,6 +10,7 @@ class Song
     def initialize(name)
       name = Song.new
       @@all << name
+      name
 
   def save
     self.class.all << self

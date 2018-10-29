@@ -37,7 +37,7 @@ class Song
   end
   
   def alphabetical
-    self.all.sort_by {|x| x.n
+    self.all.sort_by {|x| x.first}
   
   def save
     self.class.all << self

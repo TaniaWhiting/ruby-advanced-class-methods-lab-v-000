@@ -10,8 +10,8 @@ class Song
     def initialize
       song = self.new
       @@all << song
-      song
     end
+    return song
   end
   def save
     self.class.all << self

@@ -40,6 +40,12 @@ class Song
     self.all.sort_by {|song| song.name}
   end
   
+  def self.new_from_filename
+    
+    
+    
+  end
+  
   def save
     self.class.all << self
   end

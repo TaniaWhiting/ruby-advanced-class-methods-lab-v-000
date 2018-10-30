@@ -50,6 +50,9 @@ class Song
     song 
   end
     
+  def self.create_from_filename(filename)
+     @@all << self.new_from_filename(filename)
+  end
     
     
 
